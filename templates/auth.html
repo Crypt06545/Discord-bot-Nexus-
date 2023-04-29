@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="skynet-discordbot ,discord ,bot, discord-bot">
+    <meta name="description" content="discord server manager ">
+    <meta name="author" content="rofson17 mehadi_hassan">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='/images/favicon.ico')}}">
+    <title>SKYNET - Login</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/auth.css')}}">
+</head>
+
+<body>
+    <header class="h-screen w-screen bg-slate-800 flex justify-center items-center">
+        <div class="bg-slate-900  p-3 text-white rounded-md shadow-lg shadow-slate-950 w-80">
+            <img src="https://cdn.discordapp.com/attachments/861860356845731872/1100844497308500018/IMG-20230425-WA0001.jpg"
+                alt="skynet logo" class="h-48 w-48 mx-auto">
+            <h2 class="text-2xl text-center" style="margin-bottom: 1rem;"> SKYNET - <span
+                    class="text-blue-500">Dashboard</span> </h2>
+            <a href="{{ discord_url }}"
+                class="bg-indigo-700 w-full my-7 py-2  rounded-md shadow-md shadow-slate-950 hover:bg-indigo-800"
+                style="margin-left: 6rem; ">Discord
+                logIn</a>
+        </div>
+
+    </header>
+</body>
+
+</html>
